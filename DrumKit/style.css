@@ -33,7 +33,7 @@ body {
 
 #keyContainer > .key {
     background-color: rgba(66, 66, 66, 0.666);
-    color: springgreen;
+    color: #00ff7f;
     font-size: 1.8rem;
     padding: 0.8rem;
     align-content: center;
@@ -47,6 +47,7 @@ body {
 }
 
 #keyContainer > .key:hover {
+    color: #00ff48;
     transform: scale(1.02);
     -webkit-box-shadow: 0px 2px 21px 7px rgba(66, 66, 66, 0.616); 
     box-shadow: 0px 2px 21px 7px rgba(66, 66, 66, 0.616); 
