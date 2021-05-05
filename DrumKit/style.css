@@ -5,11 +5,18 @@
 }
 
 body {
-    background-size: 105%;
-    background-image: url('./Media/Images/pexels-sebastian-ervi-1763075.jpg');
+    height: 100%;
     background-color: #333;
     color: #FFF;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bg {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./Media/Images/pexels-sebastian-ervi-1763075.jpg');
 }
 
 #heading {
@@ -31,7 +38,7 @@ body {
     align-content: center;  
 }
 
-#keyContainer > .key {
+.key {
     background-color: rgba(66, 66, 66, 0.666);
     color: #00ff7f;
     font-size: 1.8rem;
@@ -44,11 +51,20 @@ body {
     height: 4rem;
     border: #111 solid 3px;
     border-radius: .8rem;
+    transition: all 0.1s;
 }
 
-#keyContainer > .key:hover {
+.key:hover {
     color: #00ff48;
     transform: scale(1.02);
     -webkit-box-shadow: 0px 2px 21px 7px rgba(66, 66, 66, 0.616); 
     box-shadow: 0px 2px 21px 7px rgba(66, 66, 66, 0.616); 
+}
+
+.playing {
+    color: #ffae00;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 2px 21px 7px rgba(255, 174, 0, 0.76); 
+    box-shadow: 0px 2px 21px 7px rgba(255, 174, 0, 0.76); 
+    border-color: rgb(255, 174, 0);
 }
