@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Me</title>
+</head>
+<body class="bg">
+
+    <div id="heading">
+        <h1>Drumkit</h1>
+    </div>
+
+    <div id="keyContainer">
+        <div id="AKey" data-key="KeyA" class="key">
+            <kbd>A</kbd>
+            <span>CLAP</span>
+        </div>
+        <div id="SKey" data-key="KeyS" class="key">
+            <kbd>S</kbd>
+            <span>HI-HAT</span>
+        </div>
+        <div id="DKey" data-key="KeyD" class="key">
+            <kbd>D</kbd>
+            <span>KICK</span>
+        </div>
+        <div id="FKey" data-key="KeyF" class="key">
+            <kbd>F</kbd>
+            <span>OPEN-HAT</span>
+        </div>
+        <div id="GKey" data-key="KeyG" class="key">
+            <kbd>G</kbd>
+            <span>BOOM</span>
+        </div>
+        <div id="HKey" data-key="KeyH" class="key">
+            <kbd>H</kbd>
+            <span>RIDE</span>
+        </div>
+        <div id="JKey" data-key="KeyJ" class="key">
+            <kbd>J</kbd>
+            <span>SNARE</span>
+        </div>
+        <div id="KKey" data-key="KeyK" class="key">
+            <kbd>K</kbd>
+            <span>TOM</span>
+        </div>
+        <div id="LKey" data-key="KeyL" class="key">
+            <kbd>L</kbd>
+            <span>TINK</span>
+        </div>
+    </div>
+
+    <audio data-key="KeyJ" src="./Media/Audio/snare-acoustic02.wav"></audio>
+    <audio data-key="KeyA" src="./Media/Audio/clap.wav"></audio>
+    <audio data-key="KeyS" src="./Media/Audio/hihat.wav"></audio>
+    <audio data-key="KeyD" src="./Media/Audio/kick.wav"></audio>
+    <audio data-key="KeyL" src="./Media/Audio/tink.wav"></audio>
+    <audio data-key="KeyK" src="./Media/Audio/tom.wav"></audio>
+    <audio data-key="KeyF" src="./Media/Audio/openhat-808.wav"></audio>
+    <audio data-key="KeyH" src="./Media/Audio/ride-acoustic02.wav"></audio>
+    <audio data-key="KeyG" src="./Media/Audio/boom.wav"></audio>
+</body>
+<script src="./script.js"></script>
+</html>
